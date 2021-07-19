@@ -1,0 +1,10 @@
+{
+    "name": "logger",
+    "version": "1.0",
+    "description": "Логгер для фронтенда",
+    "author": "Olga Zlobina",
+    "scripts": {
+        "lint": "eslint --ext .js,.jsx,.ts,.tsx,.vue src tests",
+        "serve" : "live-server"
+    }
+}
