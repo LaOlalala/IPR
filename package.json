@@ -1,10 +1,16 @@
 {
     "name": "logger",
-    "version": "1.0",
     "description": "Логгер для фронтенда",
     "author": "Olga Zlobina",
     "scripts": {
-        "lint": "eslint --ext .js,.jsx,.ts,.tsx,.vue src tests",
-        "serve" : "live-server"
+        "lint": "eslint --ext .js,.jsx,.vue src tests",
+        "serve": "live-server"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.28.3",
+        "eslint": "^7.31.0",
+        "eslint-plugin-react": "^7.24.0",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "eslint-plugin-vue": "^7.14.0"
     }
 }

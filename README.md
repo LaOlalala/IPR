@@ -1,4 +1,6 @@
 При запуске index.html через браузер появляется ошибка "blocked by CORS policy".
 Поэтому установлен live-server.
-Для запуска npm run serve.
+
+* Для запуска - npm run serve.
+* Для запуска линетра - npm run lint.
 
